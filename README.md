@@ -7,6 +7,10 @@
 '''
 The following exercise should be done in pseudo code;
 	You are not allowed to write any code
+
+ 	You are not to push to the main brach
+  	you have to create a new branch name "answer-branch"
+   	your answers shoud be stored in a file with ".txt" extension
 '''
 
 
