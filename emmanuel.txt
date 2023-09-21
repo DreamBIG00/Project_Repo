@@ -1,0 +1,8 @@
+Psuedocode:
+
+write a function called print_list_integer(my_list=[]):
+    use a for loop to iterate through the list
+        print the values 
+        use srt.format to print only integers
+
+    end the program
