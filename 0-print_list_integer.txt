@@ -1,0 +1,7 @@
+# a pseudo-code representation
+#write a function that prints all integers.
+
+step 1 : define list of integer
+step 2 : loop through the list us a for loop
+step 3 : print list in (i)
+end of program.
