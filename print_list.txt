@@ -1,0 +1,12 @@
+# A function that prints all integers of a list using the given instrctions.
+
+Define the function
+* Define print_list_integer(my_list)
+*	For each number in my_list
+*		Print number using str.format
+*	End For
+* End function
+
+* Set my_list to [1, 2, 3, 4, 5]
+
+* Call function
