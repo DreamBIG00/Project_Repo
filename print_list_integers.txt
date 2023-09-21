@@ -1,0 +1,9 @@
+Ths is a pseudo of a function that prints all integers in a list
+prototype: def print_list_integers(my_list=[]):
+
+check IF the length of the list is greater than zero:
+    Use a FOR loop to iterate over each numbers of the list:
+        check IF the number is an instance of int class:
+            PRINT the number using string.format ("".format(number))
+ELSE:
+    PRINT the empty list
