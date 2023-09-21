@@ -1,0 +1,12 @@
+Pseudo Code of a Function that takes in a list of argument and return it's element
+==================================================================================
+
+
+
+1. Define a function that takes in a list as an argument.
+
+2. Inside the function:
+	I. LOOP through the list and 
+	II. Print out the index value of the of the list element.
+
+
