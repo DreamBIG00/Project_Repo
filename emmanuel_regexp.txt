@@ -1,0 +1,39 @@
+## WHAT I UNDERSTAND ABOUT REGULAR EXPRESSION (REGEX)
+
+**Regular expression:** is a sequence of characters that defines a search pattern. It is often referred to as /"regex/"
+
+In a simple term, it is an expression used regulary
+
+### Fundamental Concepts of Regular Expressions are:
+__Literal Characters__: In most cases, characters in a regular expression match themselves directly. For example, the regex "abc" matches the exact string "abc."
+
+* __Metacharacters__: Regular expressions frequently incorporate special metacharacters, each with a distinct purpose. Some common metacharacters include:
+
+	* /"./" (dot): Matches any single character except a newline.
+	* /":/" Matches zero or more instances of the preceding character or group.
+	* /"+/": Matches one or more instances of the preceding character or group.
+	* /"?/": Matches zero or one instance of the preceding character or group.
+	* /"|/" (pipe): Func/tions as an OR operator, enabling you to select from multiple alternatives.
+	* /"()/": Groups characters or subexpressions together.
+	* /"[]/": Establishes a character class, matching any single character enclosed within the brackets.
+	* /"^/": Matches the start of a line.
+	* /"$:/" Matches the end of a line.
+___
+
+*Example:*
+'''
+Example 1 (matches exact occurance or token)
+a[1,3]h
+
+Test string 1
+ah, aah, aaah, aaaah,
+h, ha, aha
+
+Example 2 (matches 0 or more occurance of a token)
+a*h
+Test string 2
+ah, aah, aaah, aaaah,
+h, ha, aha
+
+
+'''
