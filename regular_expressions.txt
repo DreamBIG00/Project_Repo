@@ -1,0 +1,47 @@
+# Regular Expressions
+
+Regular expressions are a sequence of charecters that define a search pattern or a special test string for describing a search pattern more like wildcards.Regular Expressions are often refered to as *regx*,*regexp* or *regexes* plurslized. They are powerful tools used for sorting, searching and matching, used to filter or select specific elements from a larger set of data.They are supported by many programming languages like **python**, **JavaScript**, **Java**, **C++**, **Ruby Derl** and so on.
+
+## Basic Usage of Regular Expressions in Programming.
+1. Filtering Data.
+1. Pattern Matching.
+1. Selecting Relevant Information.
+1. Data Validation.
+1. Text Processing and Transformation.
+
+**Filtering Data**: Regular expressions allow you to define specific patterns that you want to match within a dataset. This can be text data, such as strings in a document or lines in a log file, or any other kind of data that can be represented as a sequence of characters.
+
+**Pattern Matching**: Regular expressions provide a way to express complex patterns that describe what you're looking for in the data. For example, you can create a regular expression to match email addresses, phone numbers, URLs, dates, or any other structured information within a larger text.
+
+**Selecting Relevant Information**: By applying regular expressions to your data, you can effectively "filter out" or select only the parts of the data that match the specified pattern. This allows you to extract or work with the relevant information while discarding or ignoring the rest.
+
+**Data Validation**: Regular expressions are also commonly used for data validation. You can use them to check if user input conforms to a specific format or pattern. For example, you can use a regular expression to validate that an entered email address or password meets certain requirements.
+
+**Text Processing and Transformation**: Regular expressions can be used to perform text transformations, such as replacing all occurrences of a certain pattern with something else. This is commonly seen in find-and-replace operations in text editors or when processing logs and textual data.
+
+## Commoly used Regular Expressions
+1. **Email Address Validation:**
+```
+^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+```
+2. **URL Matching**
+```
+^(https?|ftp)://[^\s/$.?#].[^\s]*$
+```
+3. **Date (YYYY-MM-DD) Matching:**
+```
+^\d{4}-\d{2}-\d{2}$
+```
+4. **IP Address Matching (IPv4):**
+```
+\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b
+```
+5. **Username Matching (Alphanumeric + Underscores):**
+```
+^[a-zA-Z0-9_]+$
+```
+---
+
+## How to write Regular Expressions 
+
+
