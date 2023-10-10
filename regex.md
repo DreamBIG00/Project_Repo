@@ -52,4 +52,4 @@ manually.
 > [Learn Regular expression in 10 minutes](https://zlibrary-ng.se/book/10991885/ddc391)
 
 ### Author
-> **Ovwiurhobo Holy** ([email](oghenewonaholy@gmail.com))
+> **Ovwiurhobo Holy** ([email](http://oghenewonaholy@gmail.com))
