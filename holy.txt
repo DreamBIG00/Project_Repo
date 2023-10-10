@@ -1,0 +1,9 @@
+#Pseudo_code of a function that prints integer to stdout
+
+1. DECLARE a function with my_list = [] as argument
+
+2. START a loop to retrieve element in my_list
+
+3. PRINT OUT to the standard output each retrieved element
+
+4. END LOOP
